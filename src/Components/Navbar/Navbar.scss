@@ -5,9 +5,26 @@
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100dvw;
+  margin-top: 6px;
 
   &__header {
     font-size: 24px;
+    margin-left: -10px;
+  }
+
+  &__buttons {
+    &--true {
+      display: flex;
+      flex-direction: column;
+      margin-left: 60%;
+    }
+
+    &--false {
+      display: none;
+    }
   }
 }
