@@ -1,0 +1,74 @@
+@use "../../Variables/ColourVariables.scss" as *;
+@use "../../Variables/TextVariables.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100dvw;
+  margin-top: 6px;
+
+  &__header {
+    font-family: $page-heading;
+    font-size: 24px;
+    margin-left: -10px;
+  }
+
+  &__buttons {
+    &--true {
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+      margin-left: 60%;
+    }
+
+    &--false {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .navbar {
+    &__header {
+      font-size: 36px;
+      padding: 0 20px;
+    }
+
+    &__menu {
+      display: none;
+    }
+
+    &__buttons {
+      display: inline;
+
+      &--true {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 833px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0 15px;
+    &__header {
+      font-size: 48px;
+      margin-left: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .navbar__buttons {
+    margin-right: 25px;
+  }
+}

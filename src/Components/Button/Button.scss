@@ -1,0 +1,36 @@
+@use "../../Variables/ColourVariables.scss" as *;
+@use "../../Variables/TextVariables.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: 2px solid $basic-black;
+  border-radius: 5px;
+  background-color: $basic-white;
+  transition: all 0.15s linear;
+  padding: 3px;
+  margin-bottom: 5px;
+  font-family: $navbutton-font;
+
+  &:hover {
+    transition: all 0.15s linear;
+    color: $button-text-colour;
+    background-color: $basic-black;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  button {
+    margin: 0 5px;
+  }
+}
+
+@media screen and (min-width: 833px) {
+  button {
+    font-size: 18px;
+  }
+}
