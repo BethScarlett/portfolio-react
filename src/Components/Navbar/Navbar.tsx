@@ -1,6 +1,7 @@
 import { useState } from "react";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import "./Navbar.scss";
+import Button from "../Button/Button";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -16,11 +17,10 @@ const Navbar = () => {
         <BurgerMenu />
       </div>
       <div className={`navbar__buttons navbar__buttons--${menuOpen}`}>
-        {/* Replace with custom button components */}
-        <button>About</button>
-        <button>Skills</button>
-        <button>Portfolio</button>
-        <button>Contact-Me</button>
+        <Button heading="About" />
+        <Button heading="Skills" />
+        <Button heading="Portfolio" />
+        <Button heading="Contact-Me" />
       </div>
     </div>
   );
