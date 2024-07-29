@@ -7,9 +7,9 @@ type IntroSectionProps = {
 
 const IntroSection = ({ heading, content }: IntroSectionProps) => {
   return (
-    <div>
-      <h1>{heading}</h1>
-      <p>{content}</p>
+    <div className="intro-section">
+      <h1 className="intro-section__header">{heading}</h1>
+      <p className="intro-section__content">{content}</p>
     </div>
   );
 };

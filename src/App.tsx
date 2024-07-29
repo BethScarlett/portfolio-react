@@ -1,5 +1,6 @@
 import "./App.scss";
 import IntroSection from "./Components/IntroSection/IntroSection";
+import { homeIntroDescription } from "./assets/TextBlocks/TextBlocks";
 import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
@@ -8,9 +9,7 @@ const App = () => {
       <Navbar />
       <IntroSection
         heading="Junior Software Developer"
-        content="Hey there! My name's Bethany Burrows and I'm an aspiring Junior Software
-        Developer. Read on to learn more about myself and the projects I've
-        developed."
+        content={homeIntroDescription}
       />
     </div>
   );
