@@ -1,0 +1,87 @@
+@use "../../assets/Variables/ColourVariables.scss" as *;
+@use "../../assets/Variables/TextVariables.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95dvw;
+  margin: auto;
+  margin-top: 30px;
+
+  &__header {
+    align-self: flex-start;
+    margin-bottom: 20px;
+  }
+
+  &__image {
+    max-width: 250px;
+  }
+
+  &__paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 350px;
+    font-family: $about-me-paragraph;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-me {
+    display: grid;
+    grid-template: 50px 350px / 2fr 1fr;
+
+    &__header {
+      width: fit-content;
+    }
+
+    &__image {
+      grid-area: 2/2;
+      max-width: 300px;
+      margin: auto;
+    }
+
+    &__paragraphs {
+      justify-content: space-around;
+      height: 95%;
+      font-size: 18px;
+      grid-area: 2/1;
+    }
+  }
+}
+
+@media screen and (min-width: 1036px) {
+  .about-me {
+    &__paragraphs {
+      font-size: 23px;
+    }
+  }
+}
+
+@media screen and (min-width: 1310px) {
+  .about-me {
+    &__paragraphs {
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (min-width: 1660px) {
+  .about-me {
+    &__image {
+      max-width: 350px;
+    }
+
+    &__paragraphs {
+      font-size: 27px;
+    }
+  }
+}
