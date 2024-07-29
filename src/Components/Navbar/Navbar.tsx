@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <h1 className="navbar__header">Bethany Burrows</h1>
-      <div onClick={toggleMenu}>
+      <div className="navbar__menu" onClick={toggleMenu}>
         <BurgerMenu />
       </div>
       <div className={`navbar__buttons navbar__buttons--${menuOpen}`}>
