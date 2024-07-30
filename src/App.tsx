@@ -4,6 +4,7 @@ import { homeIntroDescription } from "./assets/TextBlocks/TextBlocks";
 import Navbar from "./Components/Navbar/Navbar";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import SkillsSection from "./Components/SkillsSection/SkillsSection";
+import PortfolioSection from "./Components/PortfolioSection/PortfolioSection";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       />
       <AboutMe />
       <SkillsSection />
+      <PortfolioSection />
     </div>
   );
 };
