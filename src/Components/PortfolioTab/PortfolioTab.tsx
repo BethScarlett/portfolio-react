@@ -1,11 +1,16 @@
 import "./PortfolioTab.scss";
 
-const PortfolioTab = () => {
+type PortfolioTabProps = {
+  imgSrc: string;
+  projectName: string;
+};
+
+const PortfolioTab = ({ imgSrc, projectName }: PortfolioTabProps) => {
   return (
     <div>
-      <img src="" alt="" />
+      <img src={imgSrc} alt={`${projectName} icon`} />
       <div>
-        <label>Project Name</label>
+        <label>{projectName}</label>
         <div>
           <a href="">Link 1</a>
           <a href="">Link 2</a>
