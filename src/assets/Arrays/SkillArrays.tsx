@@ -1,12 +1,12 @@
-import GitIcon from "/git-icon.png";
-import HTML5Icon from "/html5-icon.png";
-import CSS3Icon from "/css3-icon.png";
-import JavaScriptIcon from "/javascript-icon.png";
-import SCSSIcon from "/scss-icon.png";
-import BEMIcon from "/bem-icon.png";
-import ReactIcon from "/react-icon.png";
-import JavaIcon from "/java-icon.png";
-import SpringBootIcon from "/springboot-icon.png";
+import GitIcon from "/Images/Skills/git-icon.png";
+import HTML5Icon from "/Images/Skills/html5-icon.png";
+import CSS3Icon from "/Images/Skills/css3-icon.png";
+import JavaScriptIcon from "/Images/Skills/javascript-icon.png";
+import SCSSIcon from "/Images/Skills/scss-icon.png";
+import BEMIcon from "/Images/Skills/bem-icon.png";
+import ReactIcon from "/Images/Skills/react-icon.png";
+import JavaIcon from "/Images/Skills/java-icon.png";
+import SpringBootIcon from "/Images/Skills/springboot-icon.png";
 
 export const skillTabImgs: string[] = [
   GitIcon,
