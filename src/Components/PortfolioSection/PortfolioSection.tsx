@@ -2,6 +2,7 @@ import PortfolioTab from "../PortfolioTab/PortfolioTab";
 import {
   portfolioImgs,
   portfolioLabels,
+  portfolioLinks,
 } from "../../assets/Arrays/PortfolioArrays";
 import "./PortfolioSection.scss";
 
@@ -13,6 +14,8 @@ const PortfolioSection = () => {
         <PortfolioTab
           imgSrc={portfolioImgs[i]}
           projectName={portfolioLabels[i]}
+          githubLink={portfolioLinks[i][0]}
+          deploymentLink={portfolioLinks[i][1]}
         />
       );
     }

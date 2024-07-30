@@ -22,3 +22,30 @@ export const portfolioLabels: string[] = [
   "Project Five",
   "Project Six",
 ];
+
+export const portfolioLinks: string[][] = [
+  [
+    "https://github.com/BethScarlett/portfolio", //Link to github
+    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+  ],
+  [
+    "https://github.com/BethScarlett/portfolio", //Link to github
+    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+  ],
+  [
+    "https://github.com/BethScarlett/portfolio", //Link to github
+    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+  ],
+  [
+    "https://github.com/BethScarlett/portfolio", //Link to github
+    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+  ],
+  [
+    "https://github.com/BethScarlett/portfolio", //Link to github
+    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+  ],
+  [
+    "https://github.com/BethScarlett/portfolio", //Link to github
+    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+  ],
+];
