@@ -1,0 +1,22 @@
+@use "../../assets/Variables/TextVariables.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skill-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__image {
+    width: 90px;
+    margin-bottom: 5px;
+  }
+
+  &__label {
+    font-family: $skill-icon-label;
+  }
+}

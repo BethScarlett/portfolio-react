@@ -1,0 +1,36 @@
+@use "../../assets/Variables/TextVariables.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skills-section {
+  width: 95dvw;
+  margin: auto;
+
+  &__header {
+    margin-bottom: 5px;
+    font-family: $skills-heading;
+  }
+
+  &__label {
+    font-family: $skills-label;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1022px) {
+  .skills-section__icons {
+    justify-content: space-between;
+  }
+}
