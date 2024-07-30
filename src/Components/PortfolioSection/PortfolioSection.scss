@@ -1,5 +1,19 @@
+@use "../../assets/Variables/TextVariables.scss" as *;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.portfolio-section {
+  &__label {
+    font-family: $portfolio-heading;
+    margin-bottom: 10px;
+  }
+  &__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

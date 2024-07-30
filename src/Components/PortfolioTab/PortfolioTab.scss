@@ -1,5 +1,38 @@
+@use "../../assets/Variables/TextVariables.scss" as *;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.portfolio-tab {
+  width: 90dvw;
+  max-width: 300px;
+
+  &__image {
+    height: 150px;
+    width: 100%;
+  }
+
+  &__project {
+    display: flex;
+    width: 100%;
+  }
+
+  &__name {
+    width: 60%;
+    align-self: center;
+    font-family: $project-name-label;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+  }
+
+  &__icon {
+    height: 45px;
+  }
 }
