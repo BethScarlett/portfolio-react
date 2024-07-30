@@ -8,7 +8,7 @@
 
 .portfolio-tab {
   width: 90dvw;
-  max-width: 300px;
+  max-width: 250px;
 
   &__image {
     height: 150px;
@@ -34,5 +34,61 @@
 
   &__icon {
     height: 45px;
+  }
+}
+
+@media screen and (min-width: 423px) {
+  .portfolio-tab {
+    max-width: 350px;
+
+    &__image {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (min-width: 505px) {
+  .portfolio-tab {
+    max-width: 450px;
+
+    &__image {
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (min-width: 558px) {
+  .portfolio-tab {
+    max-width: 250px;
+
+    &__image {
+      height: 150px;
+    }
+  }
+}
+
+@media screen and (min-width: 1219px) {
+  .portfolio-tab {
+    max-width: 350px;
+
+    &__image {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (min-width: 1620px) {
+  .portfolio-tab {
+    max-width: 400px;
+
+    &__image {
+      height: 250px;
+    }
+  }
+}
+
+@media screen and (min-width: 1820px) {
+  .portfolio-tab {
+    max-width: 450px;
   }
 }
