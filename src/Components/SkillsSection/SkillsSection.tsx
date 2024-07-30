@@ -7,19 +7,21 @@ const SkillsSection = () => {
     const icons = [];
     for (let i: number = 0; i < 9; i++) {
       icons.push(
-        <SkillTab imgSource={skillTabImgs[i]} label={skillTabLabels[i]} />
+        <SkillTab
+          imgSource={skillTabImgs[i]}
+          label={skillTabLabels[i]}
+          key={i}
+        />
       );
     }
     return icons;
   };
 
   return (
-    <div>
-      <div>
-        <h2>Skills</h2>
-        <label>My skills include: </label>
-        {handleSetIcons()}
-      </div>
+    <div className="skills-section">
+      <h2 className="skills-section__header">Skills</h2>
+      <label className="skills-section__header">My skills include: </label>
+      <div className="skills-section__icons">{handleSetIcons()}</div>
     </div>
   );
 };

@@ -7,9 +7,9 @@ type SkillTabProps = {
 
 const SkillTab = ({ imgSource, label }: SkillTabProps) => {
   return (
-    <div>
-      <img src={imgSource} alt={`${label} icon`} />
-      <label>{label}</label>
+    <div className="skill-tab">
+      <img className="skill-tab__image" src={imgSource} alt={`${label} icon`} />
+      <label className="skill-tab__label">{label}</label>
     </div>
   );
 };
