@@ -1,10 +1,15 @@
 import "./SkillTab.scss";
 
-const SkillTab = () => {
+type SkillTabProps = {
+  imgSource: string;
+  label: string;
+};
+
+const SkillTab = ({ imgSource, label }: SkillTabProps) => {
   return (
     <div>
-      <img src="" alt="" />
-      <label></label>
+      <img src={imgSource} alt={`${label} icon`} />
+      <label>{label}</label>
     </div>
   );
 };
