@@ -7,7 +7,7 @@ type FooterIconProps = {
 
 const FooterIcon = ({ imgSrc, linkTo }: FooterIconProps) => {
   return (
-    <a href={linkTo}>
+    <a href={linkTo} target="_blank">
       <img src={imgSrc} alt="Icon" />
     </a>
   );
