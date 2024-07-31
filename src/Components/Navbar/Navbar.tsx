@@ -17,10 +17,10 @@ const Navbar = () => {
         <BurgerMenu />
       </div>
       <div className={`navbar__buttons navbar__buttons--${menuOpen}`}>
-        <Button heading="About" />
-        <Button heading="Skills" />
-        <Button heading="Portfolio" />
-        <Button heading="Contact-Me" />
+        <Button heading="About" variant="menu" />
+        <Button heading="Skills" variant="menu" />
+        <Button heading="Portfolio" variant="menu" />
+        <Button heading="Contact-Me" variant="menu" />
       </div>
     </div>
   );

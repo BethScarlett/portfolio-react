@@ -2,12 +2,13 @@ import "./Button.scss";
 
 type ButtonProps = {
   heading: string;
+  variant: "menu" | "contact";
 };
 
-const Button = ({ heading }: ButtonProps) => {
+const Button = ({ heading, variant }: ButtonProps) => {
   return (
     <>
-      <button>{heading}</button>
+      <button className={`button button--${variant}`}>{heading}</button>
     </>
   );
 };
