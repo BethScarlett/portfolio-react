@@ -3,11 +3,11 @@ import "./ContactSection.scss";
 
 const ContactSection = () => {
   return (
-    <div>
-      <h2>Feel free to get in touch below:</h2>
-      <div>
-        <Button heading="Contact me" />
-      </div>
+    <div className="contact-section">
+      <h2 className="contact-section__header">
+        Feel free to get in touch below:
+      </h2>
+      <Button heading="Contact me" variant="contact" />
     </div>
   );
 };
