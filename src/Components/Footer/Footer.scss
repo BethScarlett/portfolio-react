@@ -7,7 +7,16 @@
 }
 
 .footer {
+  display: flex;
+  align-items: center;
   height: 100px;
   width: 100dvw;
-  background-color: black;
+  background-color: $basic-black;
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+  }
 }

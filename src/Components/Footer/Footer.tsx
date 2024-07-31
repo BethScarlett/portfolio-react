@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <div>{handleSetIcons()}</div>
+      <div className="footer__icons">{handleSetIcons()}</div>
     </div>
   );
 };
