@@ -1,0 +1,133 @@
+@use "../../assets/Variables/TextVariables.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-tab {
+  width: 90dvw;
+  max-width: 250px;
+
+  &__image {
+    height: 150px;
+    width: 100%;
+  }
+
+  &__project {
+    display: flex;
+    width: 100%;
+  }
+
+  &__name {
+    width: 60%;
+    align-self: center;
+    font-family: $project-name-label;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+  }
+
+  &__icon {
+    height: 45px;
+  }
+
+  &__tooltip {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    height: fit-content;
+    width: 52px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  &__tooltip--false {
+    display: none;
+  }
+
+  &__tooltip--true {
+    display: block;
+    opacity: 1;
+    animation: fade-in 0.15s linear;
+  }
+}
+
+@media screen and (min-width: 423px) {
+  .portfolio-tab {
+    max-width: 350px;
+
+    &__image {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (min-width: 505px) {
+  .portfolio-tab {
+    max-width: 450px;
+
+    &__image {
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (min-width: 558px) {
+  .portfolio-tab {
+    max-width: 250px;
+
+    &__image {
+      height: 150px;
+    }
+  }
+}
+
+@media screen and (min-width: 1219px) {
+  .portfolio-tab {
+    max-width: 350px;
+
+    &__image {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (min-width: 1620px) {
+  .portfolio-tab {
+    max-width: 400px;
+
+    &__image {
+      height: 250px;
+    }
+  }
+}
+
+@media screen and (min-width: 1820px) {
+  .portfolio-tab {
+    max-width: 450px;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

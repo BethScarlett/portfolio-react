@@ -1,0 +1,41 @@
+@use "../../assets/Variables/TextVariables.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-section {
+  width: 95dvw;
+  margin: auto;
+  margin-top: 20px;
+  &__label {
+    font-family: $portfolio-heading;
+    margin-bottom: 10px;
+  }
+  &__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+  }
+}
+
+@media screen and (min-width: 948px) {
+  .portfolio-section__tabs {
+    column-gap: 70px;
+  }
+}
+
+@media screen and (min-width: 1219px) {
+  .portfolio-section__tabs {
+    column-gap: 75px;
+  }
+}
+
+@media screen and (min-width: 1620px) {
+  .portfolio-section__tabs {
+    column-gap: 150px;
+  }
+}
