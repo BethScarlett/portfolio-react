@@ -7,7 +7,9 @@ const ContactSection = () => {
       <h2 className="contact-section__header">
         Feel free to get in touch below:
       </h2>
-      <Button heading="Contact me" variant="contact" />
+      <a href="mailto:scarlettroseprofessional@gmail.com">
+        <Button heading="Contact me" variant="contact" />
+      </a>
     </div>
   );
 };
