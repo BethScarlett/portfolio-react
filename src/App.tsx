@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import SkillsSection from "./Components/SkillsSection/SkillsSection";
 import PortfolioSection from "./Components/PortfolioSection/PortfolioSection";
+import ContactSection from "./Components/ContactSection/ContactSection";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <AboutMe />
       <SkillsSection />
       <PortfolioSection />
+      <ContactSection />
     </div>
   );
 };
