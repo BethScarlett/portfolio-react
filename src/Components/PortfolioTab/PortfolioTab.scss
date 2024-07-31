@@ -35,6 +35,27 @@
   &__icon {
     height: 45px;
   }
+
+  &__tooltip {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    height: fit-content;
+    width: 52px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+  &__tooltip--false {
+    display: none;
+  }
+
+  &__tooltip--true {
+    display: block;
+    opacity: 1;
+    animation: fade-in 0.15s linear;
+  }
 }
 
 @media screen and (min-width: 423px) {
@@ -90,5 +111,23 @@
 @media screen and (min-width: 1820px) {
   .portfolio-tab {
     max-width: 450px;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
