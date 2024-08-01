@@ -31,7 +31,13 @@
     justify-content: space-evenly;
     height: 350px;
     font-family: $about-me-paragraph;
-    font-size: 15px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .about-me__paragraphs {
+    font-size: 16px;
   }
 }
 
@@ -59,10 +65,16 @@
   }
 }
 
+@media screen and (min-width: 833px) {
+  .about-me__header {
+    font-size: 30px;
+  }
+}
+
 @media screen and (min-width: 1036px) {
   .about-me {
     &__paragraphs {
-      font-size: 23px;
+      font-size: 21px;
     }
   }
 }
@@ -70,7 +82,7 @@
 @media screen and (min-width: 1310px) {
   .about-me {
     &__paragraphs {
-      font-size: 25px;
+      font-size: 22px;
     }
   }
 }
@@ -82,7 +94,7 @@
     }
 
     &__paragraphs {
-      font-size: 27px;
+      font-size: 23px;
     }
   }
 }

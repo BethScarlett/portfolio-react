@@ -13,7 +13,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100dvw;
-  margin-top: 6px;
+  margin-top: 15px;
 
   &__header {
     font-family: $page-heading;
@@ -24,9 +24,11 @@
   &__buttons {
     &--true {
       display: flex;
-      flex-direction: column;
-      margin-top: 5px;
-      margin-left: 60%;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: -15px;
     }
 
     &--false {

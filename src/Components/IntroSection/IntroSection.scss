@@ -20,3 +20,9 @@
     font-family: $intro-paragraph;
   }
 }
+
+@media screen and (min-width: 1506px) {
+  .intro-section__content {
+    font-size: 19px;
+  }
+}

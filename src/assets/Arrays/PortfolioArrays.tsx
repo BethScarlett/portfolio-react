@@ -1,3 +1,5 @@
+//TODO - Replace all placeholder projects with projects from github, even if undelployed
+
 import ProjectOne from "/Images/Portfolio/project-one.png";
 import ProjectTwo from "/Images/Portfolio/project-two.png";
 import ProjectThree from "/Images/Portfolio/project-three.png";
