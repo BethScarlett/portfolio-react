@@ -19,7 +19,9 @@ const SkillsSection = () => {
 
   return (
     <div className="skills-section">
-      <h2 className="skills-section__header">Skills</h2>
+      <h2 className="skills-section__header" id="skills">
+        Skills
+      </h2>
       <label className="skills-section__label">My skills include: </label>
       <div className="skills-section__icons">{handleSetIcons()}</div>
     </div>

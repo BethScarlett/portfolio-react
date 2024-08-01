@@ -9,6 +9,7 @@
 .skills-section {
   width: 95dvw;
   margin: auto;
+  margin-top: 20px;
 
   &__header {
     margin-bottom: 5px;
@@ -26,6 +27,12 @@
     gap: 20px;
     margin: auto;
     margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 833px) {
+  .skills-section__header {
+    font-size: 30px;
   }
 }
 

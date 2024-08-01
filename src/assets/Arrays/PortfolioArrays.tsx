@@ -15,37 +15,37 @@ export const portfolioImgs: string[] = [
 ];
 
 export const portfolioLabels: string[] = [
-  "Project One",
-  "Project Two",
-  "Project Three",
-  "Project Four",
-  "Project Five",
-  "Project Six",
+  "Calculator",
+  "Webgame",
+  "Ticket Tracker",
+  "Hangman (Terminal Game)",
+  "Card Games (Collab)",
+  "Expense Tracker",
 ];
 
 export const portfolioLinks: string[][] = [
   [
-    "https://github.com/BethScarlett/portfolio", //Link to github
-    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+    "https://github.com/BethScarlett/calculator", //Project One Github
+    "https://bethscarlett.github.io/calculator/", //Project One Deployment
   ],
   [
-    "https://github.com/BethScarlett/portfolio", //Link to github
-    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+    "https://github.com/BethScarlett/webcrush-project", //Project Two Github
+    "https://bethscarlett.github.io/webcrush-project/", //Project Two Deployment
   ],
   [
-    "https://github.com/BethScarlett/portfolio", //Link to github
-    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+    "https://github.com/BethScarlett/ticket-tracker", //Project Three Github
+    "https://bethscarlett.github.io/ticket-tracker/", //Project Three Deployment
   ],
   [
-    "https://github.com/BethScarlett/portfolio", //Link to github
-    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+    "https://github.com/BethScarlett/hangman-project", //Project Four Github
+    "https://github.com/BethScarlett/hangman-project", //Project Four Deployment
   ],
   [
-    "https://github.com/BethScarlett/portfolio", //Link to github
-    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+    "https://github.com/BethScarlett/CardGamePairProject", //Project Five Github
+    "https://github.com/BethScarlett/CardGamePairProject", //Project Five Deployment
   ],
   [
-    "https://github.com/BethScarlett/portfolio", //Link to github
-    "https://bethscarlett.github.io/portfolio/", //Link to deployment
+    "https://github.com/BethScarlett/ExpenseTracker", //Project Six Github
+    "https://github.com/BethScarlett/ExpenseTracker", //Project Six Deployment
   ],
 ];
