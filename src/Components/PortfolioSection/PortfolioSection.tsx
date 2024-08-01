@@ -24,7 +24,9 @@ const PortfolioSection = () => {
 
   return (
     <div className="portfolio-section">
-      <h2 className="portfolio-section__label">Portfolio</h2>
+      <h2 className="portfolio-section__label" id="portfolio">
+        Portfolio
+      </h2>
       <div className="portfolio-section__tabs">{handleSetTabs()}</div>
     </div>
   );

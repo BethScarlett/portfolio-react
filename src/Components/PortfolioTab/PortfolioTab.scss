@@ -1,12 +1,11 @@
 @use "../../assets/Variables/TextVariables.scss" as *;
+@use "../../assets/Variables/ColourVariables.scss" as *;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-//TODO - Fix tooltip font + colour
 
 .portfolio-tab {
   width: 90dvw;
@@ -41,10 +40,13 @@
   &__tooltip {
     position: absolute;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: $tooltip-font;
+    color: $tooltip-font-colour;
     height: fit-content;
     width: 52px;
-    background-color: blueviolet;
+    background-color: $tooltip-background;
+    border: 1px solid $basic-black;
     border-radius: 10px;
     opacity: 1;
   }

@@ -17,11 +17,18 @@ const Navbar = () => {
         <BurgerMenu />
       </div>
       <div className={`navbar__buttons navbar__buttons--${menuOpen}`}>
-        {/* TODO - Add links to navigate across page */}
-        <Button heading="About" variant="menu" />
-        <Button heading="Skills" variant="menu" />
-        <Button heading="Portfolio" variant="menu" />
-        <Button heading="Contact-Me" variant="menu" />
+        <a href="#about-me">
+          <Button heading="About" variant="menu" />
+        </a>
+        <a href="#skills">
+          <Button heading="Skills" variant="menu" />
+        </a>
+        <a href="#portfolio">
+          <Button heading="Portfolio" variant="menu" />
+        </a>
+        <a href="#contact-me">
+          <Button heading="Contact-Me" variant="menu" />
+        </a>
       </div>
     </div>
   );
