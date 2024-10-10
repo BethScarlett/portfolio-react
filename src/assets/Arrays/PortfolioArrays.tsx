@@ -17,7 +17,7 @@ export const portfolioImgs: string[] = [
 export const portfolioLabels: string[] = [
   "Calculator",
   "Webgame",
-  "Ticket Tracker",
+  "Recipe Book",
   "Hangman (Terminal Game)",
   "Card Games (Collab)",
   "Expense Tracker",
@@ -33,8 +33,8 @@ export const portfolioLinks: string[][] = [
     "https://bethscarlett.github.io/webcrush-project/", //Project Two Deployment
   ],
   [
-    "https://github.com/BethScarlett/ticket-tracker", //Project Three Github
-    "https://bethscarlett.github.io/ticket-tracker/", //Project Three Deployment
+    "https://github.com/BethScarlett/RecipeBookFrontEnd", //Project Three Github
+    "https://bethscarlett.github.io/RecipeBookFrontEnd/", //Project Three Deployment
   ],
   [
     "https://github.com/BethScarlett/hangman-project", //Project Four Github
